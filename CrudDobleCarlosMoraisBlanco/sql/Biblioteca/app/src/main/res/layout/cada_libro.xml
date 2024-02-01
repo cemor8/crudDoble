@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/negroPrincipal">
+
+    <TextView
+            android:text="Titulo"
+            android:layout_width="216dp"
+            android:layout_height="75dp" android:id="@+id/mostrarTitulo"
+            android:textSize="30sp" android:gravity="center"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="96dp"/>
+    <TextView
+            android:text="Titulo"
+            android:layout_width="398dp"
+            android:layout_height="67dp" android:id="@+id/mostrarAutor"
+            android:textSize="28sp" android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/mostrarTitulo"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Titulo"
+            android:layout_width="275dp"
+            android:layout_height="54dp" android:id="@+id/mostrarPag"
+            android:textSize="30sp" android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="44dp"
+            app:layout_constraintTop_toBottomOf="@+id/mostrarAutor"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="68dp"/>
+
+    <Button
+            android:text="Volver"
+            android:layout_width="137dp"
+            android:layout_height="68dp" android:id="@+id/btnVolver"
+            android:onClick="volver" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="40dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="146dp"
+            android:backgroundTint="@color/azulPrincipal"/>
+    <Button
+            android:text="Modificar"
+            android:layout_width="137dp"
+            android:layout_height="68dp" android:id="@+id/btnModificar"
+            android:layout_marginEnd="40dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="146dp"
+            android:onClick="modificar" android:backgroundTint="@color/azulPrincipal"/>
+    <Button
+            android:text="Eliminar"
+            android:layout_width="137dp"
+            android:layout_height="68dp" android:id="@+id/btnEliminar"
+            android:layout_marginEnd="124dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="56dp"
+            android:onClick="eliminar" android:backgroundTint="@color/azulPrincipal"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IRead</string>
+    <string name="fecha">Fecha:  %1$s</string>
+    <string name="paginas">Páginas:  %1$s</string>
+</resources>

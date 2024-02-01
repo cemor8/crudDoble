@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/negroPrincipal">
+
+    <EditText
+        android:id="@+id/introducirTitulo"
+        android:layout_width="217dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Escribe Aqui..."
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/introducirAutor"
+        android:layout_width="217dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Escribe Aqui..."
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/introducirPaginas"
+        android:layout_width="217dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Escribe Aqui..."
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnCrear"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+            android:text="Crear"
+            android:layout_width="159dp"
+            android:layout_height="70dp" android:id="@+id/btnCrear"
+            android:layout_marginEnd="36dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="52dp"
+            android:onClick="crearLibro" android:backgroundTint="@color/azulPrincipal"/>
+    <Button
+            android:text="Volver"
+            android:layout_width="159dp"
+            android:layout_height="70dp" android:id="@+id/btnVolverInicio"
+            android:layout_marginEnd="216dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="52dp"
+            android:onClick="volver" android:backgroundTint="@color/azulPrincipal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="256dp"
+        android:text="Título"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:text="Autor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            android:textSize="25dp" android:layout_marginEnd="260dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white" android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/introducirAutor"/>
+    <TextView
+            android:text="Páginas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            android:textSize="25dp" android:layout_marginEnd="232dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/introducirPaginas"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
