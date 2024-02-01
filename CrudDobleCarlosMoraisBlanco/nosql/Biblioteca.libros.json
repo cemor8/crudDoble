@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "65b3d19e7aadd140d0e3c2df"
+  },
+  "titulo": "Libro1",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd95791f74af1731d19d3"
+  },
+  "titulo": "Libro2",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd98d91f74af1731d19d4"
+  },
+  "titulo": "Libro3",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd99591f74af1731d19d5"
+  },
+  "titulo": "Libro4",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd99d91f74af1731d19d6"
+  },
+  "titulo": "Libro5",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd9a591f74af1731d19d7"
+  },
+  "titulo": "Libro6",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd9aa91f74af1731d19d8"
+  },
+  "titulo": "Libro7",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd9b291f74af1731d19d9"
+  },
+  "titulo": "Libro8",
+  "autor": "Carlos",
+  "paginas": 20
+},
+{
+  "_id": {
+    "$oid": "65bbd9f8a7ffa829addffcd3"
+  },
+  "paginas": 20,
+  "titulo": "Libro9",
+  "autor": "Carlos"
+},
+{
+  "_id": {
+    "$oid": "65bbdaf13771cc41f49dae21"
+  },
+  "titulo": "Libro10",
+  "autor": "Carlis",
+  "paginas": 231
+},
+{
+  "_id": {
+    "$oid": "65bbdccbc187de9f501fe1c8"
+  },
+  "titulo": "Libro11",
+  "autor": "Carlos",
+  "paginas": 20
+}]
